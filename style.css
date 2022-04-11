@@ -1,0 +1,52 @@
+ .sea {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .blue {
+        position: relative;
+        top: 0;
+        left: 0;
+        animation-name: kenburns-left;
+        animation-duration: 5s;
+        animation-timing-function: easeOut;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+
+      }
+
+      @keyframes kenburns-left {
+        0% {  
+         height: 1080px;
+         width: 1920px;
+         border-radius: 50%;
+         transform: rotate(0deg);
+        }
+        }
+
+      .fish {
+        position: absolute;
+        top: 170px;
+        left: 450px;
+        animation-name: rotate-in-2-cw;
+        animation-duration: 3s;
+        animation-timing-function: easeOutQuad;
+        animation-delay: 3s;
+        animation-iteration-count: 1;
+        animation-direction: reverse;
+        animation-fill-mode: both;
+        animation-play-state: running;
+        
+      }
+
+      @keyframes rotate-in-2-cw {
+        0% {  
+         height: 160px;
+         width: 210px;
+         border-radius: 50%;
+         transform: rotate(11.5deg);
+        }
+        }
